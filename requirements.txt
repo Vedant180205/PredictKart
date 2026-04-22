@@ -1,0 +1,35 @@
+# Core Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+
+# Database & ORM
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+alembic==1.14.1
+
+# Asynchronous Tasks & Caching
+celery==5.4.0
+redis==5.2.1
+apscheduler==3.10.4
+
+# HTTP Client & Scraping
+httpx==0.28.1
+beautifulsoup4==4.12.3
+playwright==1.49.1
+lxml==5.3.0
+
+# Data Validation & Serialization
+pydantic==2.10.4
+pydantic-settings==2.6.1
+
+# AI / LLM Integration
+groq==0.13.0
+google-generativeai==0.8.3
+
+# Utility
+requests==2.32.3
+pytz==2024.2
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.12
